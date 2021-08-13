@@ -7,7 +7,7 @@ from data_manage import DataManager
 from model import ModelManager
 
 
-with open('DATA/GenMB-10m/instance_Gen_Meisel2009_10m_20_1.dat') as f:
+with open('DATA/GenMB-10m/instance_Gen_Meisel2009_10m_20_5.dat') as f:
     data_manager = DataManager(f)
 
 model_manager = ModelManager(data_manager)
